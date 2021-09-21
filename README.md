@@ -1,14 +1,18 @@
 # Fetch data from Google Trends
 
+![](https://img.shields.io/github/license/andrematte/fetch-gtrends-queries?color=red&label=License&style=for-the-badge) ![](https://img.shields.io/github/stars/andrematte/fetch-gtrends-queries?logo=github&style=for-the-badge)
+
+## 💬 Description:
+
 Easily fetch a list of queries from Google Trends using the [PyTrends](https://github.com/GeneralMills/pytrends) library. 
 
-## Requirements
+## 🛠  Requirements
 
 This script requires the [PyTrends](https://github.com/GeneralMills/pytrends) library. To install this library run the following command:
 
 `pip install pytrends`
 
-## How to use
+## 💡  How to use
 1 - Edit the config.py file to set the following items:
    - `TIME_FRAME`: Start end End dates for the query search;
    - `queries`: List of queries that will be run separately;
